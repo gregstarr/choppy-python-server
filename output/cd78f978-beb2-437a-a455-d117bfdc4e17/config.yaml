@@ -1,0 +1,12 @@
+beam_width: 2
+connector_diameter: 5
+connector_spacing: 10
+connector_tolerance: 0.5
+directory: /home/greg/code/pychop_server/output/cd78f978-beb2-437a-a455-d117bfdc4e17
+mesh: /home/greg/code/pychop_server/output/cd78f978-beb2-437a-a455-d117bfdc4e17/bunny.stl
+name: bunny
+printer_extents:
+- 200.0
+- 200.0
+- 200.0
+scale_factor: 1

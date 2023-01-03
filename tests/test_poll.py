@@ -39,7 +39,7 @@ def test_poll_empty(app_process, caplog):
 def test_poll_nonempty(app_process, caplog):
     caplog.set_level(logging.INFO)
     client = requests.session()
-    stlfile = resources / "Body5.stl"
+    stlfile = resources / "bunny.stl"
     url = "http://127.0.0.1:5000"
     resp = client.get(url)
     form_data = {

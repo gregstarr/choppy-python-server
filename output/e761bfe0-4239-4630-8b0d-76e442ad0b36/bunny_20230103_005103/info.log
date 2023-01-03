@@ -1,0 +1,42 @@
+2023-01-03 00:51:03,390  pychop3d.search  [INFO]  Starting beam search with an instance of <class 'trimesh.base.Trimesh'>
+2023-01-03 00:51:03,391  pychop3d.search  [INFO]  Trimesh stats:
+2023-01-03 00:51:03,391  pychop3d.search  [INFO]  verts: 148 extents: [216.24000549 173.25       214.50700378]
+2023-01-03 00:52:25,199  pychop3d.search  [INFO]  index 0, normal [-0.809  0.588  0.   ], norm trees: 10
+2023-01-03 00:52:25,199  pychop3d.search  [INFO]  index 1, normal [-0.793  0.576  0.2  ], norm trees: 12
+2023-01-03 00:52:25,199  pychop3d.search  [INFO]  index 2, normal [-0.741  0.539  0.4  ], norm trees: 12
+2023-01-03 00:52:25,200  pychop3d.search  [INFO]  index 3, normal [-0.647  0.47   0.6  ], norm trees: 13
+2023-01-03 00:52:25,200  pychop3d.search  [INFO]  index 4, normal [-0.485  0.353  0.8  ], norm trees: 14
+2023-01-03 00:52:25,200  pychop3d.search  [INFO]  index 5, normal [-0.309  0.951  0.   ], norm trees: 10
+2023-01-03 00:52:25,200  pychop3d.search  [INFO]  index 6, normal [-0.303  0.932  0.2  ], norm trees: 11
+2023-01-03 00:52:25,201  pychop3d.search  [INFO]  index 7, normal [-0.283  0.872  0.4  ], norm trees: 12
+2023-01-03 00:52:25,201  pychop3d.search  [INFO]  index 8, normal [-0.279 -0.253  0.926], norm trees: 11
+2023-01-03 00:52:25,201  pychop3d.search  [INFO]  index 9, normal [-0.247  0.761  0.6  ], norm trees: 12
+2023-01-03 00:52:25,201  pychop3d.search  [INFO]  index 10, normal [-0.185  0.571  0.8  ], norm trees: 14
+2023-01-03 00:52:25,201  pychop3d.search  [INFO]  index 11, normal [-0.017 -0.963 -0.268], norm trees: 11
+2023-01-03 00:52:25,202  pychop3d.search  [INFO]  index 12, normal [0.185 0.571 0.8  ], norm trees: 13
+2023-01-03 00:52:25,202  pychop3d.search  [INFO]  index 13, normal [0.247 0.761 0.6  ], norm trees: 11
+2023-01-03 00:52:25,202  pychop3d.search  [INFO]  index 14, normal [0.283 0.872 0.4  ], norm trees: 11
+2023-01-03 00:52:25,202  pychop3d.search  [INFO]  index 15, normal [0.303 0.932 0.2  ], norm trees: 10
+2023-01-03 00:52:25,203  pychop3d.search  [INFO]  index 16, normal [0.309 0.951 0.   ], norm trees: 8
+2023-01-03 00:52:25,203  pychop3d.search  [INFO]  index 17, normal [0.485 0.353 0.8  ], norm trees: 13
+2023-01-03 00:52:25,203  pychop3d.search  [INFO]  index 18, normal [0.6 0.  0.8], norm trees: 11
+2023-01-03 00:52:25,203  pychop3d.search  [INFO]  index 19, normal [0.647 0.47  0.6  ], norm trees: 12
+2023-01-03 00:52:25,204  pychop3d.search  [INFO]  index 20, normal [0.741 0.539 0.4  ], norm trees: 9
+2023-01-03 00:52:25,204  pychop3d.search  [INFO]  index 21, normal [0.793 0.576 0.2  ], norm trees: 9
+2023-01-03 00:52:25,204  pychop3d.search  [INFO]  index 22, normal [0.8 0.  0.6], norm trees: 9
+2023-01-03 00:52:25,204  pychop3d.search  [INFO]  index 23, normal [0.809 0.588 0.   ], norm trees: 8
+2023-01-03 00:52:25,205  pychop3d.search  [INFO]  index 24, normal [0.917 0.    0.4  ], norm trees: 10
+2023-01-03 00:52:25,205  pychop3d.search  [INFO]  index 25, normal [ 0.96  -0.09   0.265], norm trees: 8
+2023-01-03 00:52:25,205  pychop3d.search  [INFO]  index 26, normal [0.98 0.   0.2 ], norm trees: 8
+2023-01-03 00:52:25,205  pychop3d.search  [INFO]  index 27, normal [1. 0. 0.], norm trees: 10
+2023-01-03 00:52:25,205  pychop3d.search  [INFO]  total trees: 302
+2023-01-03 00:52:25,547  pychop3d.search  [INFO]  77 valid trees
+2023-01-03 00:52:25,547  pychop3d.search  [INFO]  Leaves: 2, best objective: 1.2191099770380696, estimated number of parts: 2.0
+2023-01-03 00:52:25,548  pychop3d  [INFO]  Best BSP-tree found in 82.26599788665771 seconds
+2023-01-03 00:52:25,548  pychop3d  [INFO]  finding best connector arrangement
+2023-01-03 00:52:25,549  pychop3d.connector  [INFO]  Creating connectors...
+2023-01-03 00:52:25,653  pychop3d.connector  [INFO]  Number of connectors: 269
+2023-01-03 00:52:25,654  pychop3d.connector  [INFO]  determining connector-cut intersections
+2023-01-03 00:52:26,017  pychop3d.connector  [INFO]  determining connector-connector intersections
+2023-01-03 00:52:26,022  pychop3d.connector  [INFO]  initial objective: 1.211716534703296
+2023-01-03 00:52:27,509  pychop3d.connector  [INFO]  post initialization objective: 0.4299816567021108
