@@ -87,7 +87,9 @@ def prepare_archive(job_info):
 
 async def poll_and_run(url):
     logging.info("sending request")
-    response = requests.get(f"{url}/poll", headers={"Key": settings.SECRET_KEY})
+    response = requests.get(
+        f"{url}/poll", headers={"Key": settings.SECRET_KEY}
+    )
     if response.status_code != 200:
         logging.info("status code != 200")
         return
@@ -104,6 +106,9 @@ async def poll_and_run(url):
         headers={"Key": settings.SECRET_KEY},
         files={"file": open(tar_path, "rb")},
     )
+    if response.status_code != 200:
+        logging.info("status code != 200")
+        return
     result = response.json()
     logging.info(result)
 
@@ -113,7 +118,7 @@ async def main():
     if settings.DEBUG:
         url = "http://127.0.0.1:5000"
     else:
-        url = "https://www.pychop.xyz"
+        url = "https://pychop.xyz"
     tasks = set()
     while True:
         logging.info(f"{len(tasks)=}")
