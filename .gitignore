@@ -57,4 +57,4 @@ env/
 # Development database
 *.db
 
-instance/
+output/
