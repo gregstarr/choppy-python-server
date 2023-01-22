@@ -4,7 +4,7 @@ import logging
 import pytest
 import requests
 import time
-from pychop_server.server import poll
+from choppy_back.server import poll
 
 
 resources = pathlib.Path(__file__).parent / "test_data"
@@ -18,7 +18,7 @@ def app_process():
             "-m",
             "flask",
             "--app",
-            "/home/greg/code/pychop_app/pychop_app/app:create_app",
+            "/home/greg/code/choppy_front/choppy_front/app:create_app",
             "--debug",
             "run",
         ],

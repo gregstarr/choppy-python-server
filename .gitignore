@@ -49,7 +49,7 @@ env/
 /node_modules/
 
 # webpack-built files
-/pychop_app/static/build/
+/choppy_front/static/build/
 
 # Configuration
 .env

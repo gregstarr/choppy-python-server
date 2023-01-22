@@ -8,7 +8,7 @@ import tarfile
 import typing
 from pydantic import BaseModel
 import uuid
-from pychop_server import settings
+from choppy_back import settings
 
 
 def configure_logging():
